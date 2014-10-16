@@ -2,6 +2,8 @@
 
 Simple keyboard code for the [Bare Conductive Touch Board](http://www.bareconductive.com/shop/touch-board/). Touch electrode 0, simulates a keyboard press of the letter Q, etc...
 
+![Demo](../../blob/master/touchboard_keyboard.gif?raw=true)
+
 ## Requirements
 * [Arduino](http://arduino.cc/en/Main/Software) 1.5.6 or later
 
