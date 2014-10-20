@@ -1,8 +1,25 @@
 # Bare Conductive Touch Board as Keyboard
 
-Simple keyboard code for the [Bare Conductive Touch Board](http://www.bareconductive.com/shop/touch-board/). Touch electrode 0, simulates a keyboard press of the letter Q, etc...
+Simple keyboard code for the [Bare Conductive Touch Board](http://www.bareconductive.com/shop/touch-board/). Touch electrode 0, simulates a keyboard press of the UP key, 1 simulates the DOWN key, etc...
 
 ![Demo](../../blob/master/touchboard_keyboard.gif?raw=true)
+
+These are the mappings which are in the sketch:
+
+Electrode 0: Up Arrow
+Electrode 1: Down Arrow
+Electrode 2: Left Arrow
+Electrode 3: Right Arrow
+Electrode 4: Space
+Electrode 5: w
+Electrode 6: a
+Electrode 7: s
+Electrode 8: d
+Electrode 9: f
+Electrode 10: g
+Electrode 11: q
+
+These are the values for a QWERTY keyboard layout. You might receive different characters depending on your keyboard layout.
 
 ## Requirements
 * [Arduino](http://arduino.cc/en/Main/Software) 1.5.6 or later
