@@ -6,18 +6,18 @@ Simple keyboard code for the [Bare Conductive Touch Board](http://www.bareconduc
 
 These are the mappings which are in the sketch:
 
-Electrode 0: Up Arrow
-Electrode 1: Down Arrow
-Electrode 2: Left Arrow
-Electrode 3: Right Arrow
-Electrode 4: Space
-Electrode 5: w
-Electrode 6: a
-Electrode 7: s
-Electrode 8: d
-Electrode 9: f
-Electrode 10: g
-Electrode 11: q
+* Electrode 0: Up Arrow
+* Electrode 1: Down Arrow
+* Electrode 2: Left Arrow
+* Electrode 3: Right Arrow
+* Electrode 4: Space
+* Electrode 5: w
+* Electrode 6: a
+* Electrode 7: s
+* Electrode 8: d
+* Electrode 9: f
+* Electrode 10: g
+* Electrode 11: q
 
 These are the values for a QWERTY keyboard layout. You might receive different characters depending on your keyboard layout.
 
