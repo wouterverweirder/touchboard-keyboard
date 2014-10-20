@@ -4,18 +4,18 @@
 #define numElectrodes 12
 
 int keys[] = {
-  'q',
+  KEY_UP_ARROW,
+  KEY_DOWN_ARROW,
+  KEY_LEFT_ARROW,
+  KEY_RIGHT_ARROW,
+  ' ',
   'w',
-  'e',
-  'r',
-  't',
-  'y',
-  'u',
-  'i',
-  'o',
-  'p',
-  'q',
-  's'
+  'a',
+  's',
+  'd',
+  'f',
+  'g',
+  'q'
 };
 
 void setup()
@@ -53,7 +53,9 @@ void loop()
     MPR121.updateTouchData();
     for(int i=0; i<numElectrodes; i++){
       if(MPR121.isNewTouch(i)){
-        Keyboard.write(keys[i]);
+        Keyboard.press(keys[i]);
+      } else if(MPR121.isNewRelease(i)) {
+        Keyboard.release(keys[i]);
       }
     } 
   }
